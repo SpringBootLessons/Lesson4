@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirm Page</title>
+</head>
+<body>
+<h1>Confirm Page</h1>
+<!--th:inline indicates that the value of text to be displayed is shown
+within the tag-->
+<p th:inline="text">The login used was [[${loginval}]].</p>
+<!-- To make sure the values of your Thymeleaf expressions are evaluated,
+enclose your expressions in double square parentheses - [[]].-->
+</body>
+</html>
